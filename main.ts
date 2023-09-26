@@ -1,6 +1,7 @@
 import { ExtensionHostKind, createModelReference, monaco, registerExtension, vscode } from "./monaco";
 
 const result = registerExtension(new URL("./extensions/hello-world/package.json", import.meta.url), ExtensionHostKind.LocalProcess);
+await result.getApi();
 
 console.log(result);
 
