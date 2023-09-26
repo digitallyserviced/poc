@@ -49,7 +49,7 @@
 					"id": "deployment",
 					"uses": "actions/deploy-pages@v1"
 				}
-			],
+			], 
 			"timeout-minutes": 15
 		}
 	}
