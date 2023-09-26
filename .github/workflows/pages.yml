@@ -1,7 +1,6 @@
 {
 	"name": "ci",
 	"on": {
-		"workflow_dispatch": true,
 		"push": {
 			"branches": ["main"]
 		}
